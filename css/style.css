@@ -20,7 +20,6 @@ body {
     font-family: "Poppins", sans-serif;
     background-color: var(--bg);
     color: #fff;
-    min-height: 450vh;
 }
 
 .navbar {
@@ -278,6 +277,47 @@ body {
     background-color: var(--primary);
     display: inline-block;
     color: #fff;
+}
+
+/* footer */
+footer {
+    text-align: center;
+    padding: 1rem 0 3rem;
+    background-color: var(--primary);
+    margin-top: 2rem;
+}
+
+footer .socials {
+    padding: 1rem 0;
+}
+
+footer .socials a {
+    color: #fff;
+    margin: 1rem;
+}
+
+footer .socials a:hover,
+footer .links a:hover {
+    color: var(--bg);
+}
+
+footer .links {
+    margin-bottom: 1.4rem;
+}
+
+footer .links a {
+    color: #fff;
+    padding: 0.7rem 1rem;
+}
+
+footer .credit {
+    margin-top: 1rem;
+    font-size: 0.8rem;
+}
+
+footer .credit a {
+    color: var(--bg);
+    font-weight: 700;
 }
 
 /* Laptop */
