@@ -271,6 +271,21 @@ body {
     margin: 1rem auto 0.5rem;
 }
 
+/* product section */
+
+.products .row {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    gap: 1.5rem;
+    margin-top: 4rem;
+}
+
+.products .product-card {
+    text-align: center;
+    border: 2px solid #666;
+    padding: 2rem;
+}
+
 /* contact section */
 .contact .row {
     display: flex;
