@@ -286,6 +286,33 @@ body {
     padding: 2rem;
 }
 
+.products .product-icon {
+    display: flex;
+    justify-content: center;
+    gap: 0.5rem;
+}
+
+.products .product-icon a {
+    width: 4rem;
+    height: 4rem;
+    color: #fff;
+    margin: 0.3rem;
+    border: 1px solid #666;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.product .product-image img {
+    height: 25rem;
+}
+
+.products .product-icon a:hover {
+    background-color: var(--primary);
+    border: 1px solid var(--primary);
+}
+
 /* contact section */
 .contact .row {
     display: flex;
