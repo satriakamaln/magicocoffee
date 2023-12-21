@@ -480,7 +480,7 @@ footer .credit a {
 /* modal box */
 /* Item Detail */
 .modal {
-    display: flex;
+    display: none;
     position: fixed;
     z-index: 9999;
     left: 0;
@@ -499,6 +499,20 @@ footer .credit a {
     padding: 1.2rem;
     border: 1px solid #666;
     width: 80%;
+    animation: AnimateModal 0.5s;
+}
+
+/* modal animation */
+@keyframes AnimateModal {
+    from {
+        top: -300px;
+        opacity: 0;
+    }
+
+    to {
+        top: 0;
+        opacity: 1;
+    }
 }
 
 .modal-container .close-icon {
@@ -623,6 +637,10 @@ footer .credit a {
 
     .contact .row form {
         padding-top: 0;
+    }
+
+    .modal-content {
+        flex-wrap: wrap;
     }
 }
 
